@@ -46,3 +46,10 @@ $ roslaunch turtlebot_gazebo turtlebot_world.launch
 $ . ~/catkin_ws/devel/setup.bash
 $ rosrun enpm808x_turtlebot_gazebo rebot mybot // Argument sets name of node
 ```
+
+## Run Using Launch File
+```
+---In new terminal window---
+$ . ~/catkin_workspace/devel/setup.bash
+$ roslaunch enpm808X_turtlebot_gazebo robot.launch
+```
